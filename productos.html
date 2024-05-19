@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--  fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--  Josefin Sans -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=M+PLUS+Rounded+1c&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!--  Exo 2 -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=M+PLUS+Rounded+1c&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="box-flex header">
+        <img src="imagenes/descargar.png" alt="" height="90px">
+        <h1>TITULO</h1>
+    </header>
+
+    <nav>
+        <ul class="box-flex navigation">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a class="link-active" href="#">Productos</a></li>
+            <li><a href="quienes-somos.html">Quienes Somos</a></l>
+        </ul>
+    </nav>
+
+    <div class="box-flex">
+        <div id="filtros">
+            <div>
+                <h2>Filtro</h2>
+            </div>
+
+            <section>
+                <form action="#" method="post" target="_blank">
+
+                    <div>
+                        <label class="a-line" for="palabra-clave">Buscar</label>
+                        <input type="search" placeholder="palabras claves" id="palabra-clave" name="palabra-clave">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="categorias" class="dis-block">Categorias</label>
+                        <select name="categorias" id="categorias" multiple>
+                            <option value="Item 1">Item 1</option>
+                            <option value="Item 2">Item 2</option>
+                            <option value="Item 3">Item 3</option>
+                            <option value="Item 4">Item 4</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Marca" class="dis-block">Marca</label>
+                        <select name="Marca" id="Marca" multiple>
+                            <option value="Item 1">Item 1</option>
+                            <option value="Item 2">Item 2</option>
+                            <option value="Item 3">Item 3</option>
+                            <option value="Item 4">Item 4</option>
+                        </select>
+                    </div>
+
+                    <br>
+                    <h2>Rango de Precios</h2>
+                    <input type="range" min="5" max="10" step="0.01" />
+
+                    <br>
+                    <input type="submit" value="Buscar">
+
+                </form>
+            </section>
+        </div>
+
+        <div id="productos">
+            <div>
+                <h2>PRODUCTOS</h2>
+                <hr>
+            </div>
+
+            <div class="box-container">
+                <article>
+                    <img src="imagenes/Imagen_7.png" alt="" height="100px">
+                    <h3>Titulo</h3>
+                </article>
+
+                <article>
+                    <img src="imagenes/Imagen_1.png" alt="" height="100px">
+                    <h3>Titulo</h3>
+                </article>
+
+                <article>
+                    <img src="imagenes/Imagen_8.jpg" alt="" height="100px">
+                    <h3>Titulo</h3>
+                </article>
+
+                <article>
+                    <img src="imagenes/Imagen_4.jpg" alt="" height="100px"> 
+                    <h3>Titulo</h3>
+                </article>
+
+                <article>
+                    <img src="imagenes/Imagen_9.jpg" alt="" height="100px">
+                    <h3>Titulo</h3>
+                </article>
+
+                <article>
+                    <img src="imagenes/Imagen_3.png" alt="" height="100px">
+                    <h3>Titulo</h3>
+                </article>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="box-container">
+        <img src="imagenes/descargar.png" alt=" " height="180px ">
+
+
+        <div>
+            <h3>Datos de la empresa</h3>
+            <p>Direccion, Cuidad, Celular, Correo</p>
+            <p>Estudiante: Claudia Lorena Tibagan Motavita</p>
+            <a href="mailto:cltibaganm@unadvirtual.edu.co">cltibaganm@unadvirtual.edu.co</a>
+        </div>
+
+        <div>
+            <h3>Redes Sociales</h3>
+            <p>Facebook, Instagram, Email</p>
+        </div>
+    </div>
+
+
+</footer>
+
+</html>
